@@ -1,0 +1,13 @@
+@import "stylesheets/sizes.scss";
+
+.Layout {
+    &-body {
+        margin: 0;
+        @media screen and (min-width: $screen-medium) and (max-width: $screen-large){
+            margin: 0 100px;
+        }
+        @media screen and (min-width: $screen-large) {
+            margin: 0 200px;
+        }
+    }
+}

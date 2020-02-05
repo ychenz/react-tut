@@ -1,0 +1,21 @@
+.Login {
+    padding: 32px;
+
+     &-title {
+         font-weight: bold;
+         font-size: 24px;
+         margin: 24px 0;
+    }
+
+    &-form-container {
+        max-width: 600px;
+    }
+
+    &-signup-text {
+        margin-top: 16px;
+    }
+
+    &-signup-text a{
+        cursor: pointer;
+    }
+}
