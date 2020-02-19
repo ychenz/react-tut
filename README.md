@@ -1,6 +1,6 @@
 ## React Tutorial Repo for Youtube Channel: Program the web with Yuchen
 
-Recommended usage: Please fork the repo and keep it as you own. Then checkout the `base-template` branch to start coding.
+Suggested usage: Please fork the repo and keep it as you own. Then checkout the `base-template` branch to start coding.
 
 Happy coding! 😄
 
