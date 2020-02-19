@@ -1,8 +1,21 @@
-## React Redux with react router template, scss frontend
+## React Tutorial Repo for Youtube Channel: Program the web with Yuchen
 
-Assume API runs on localhost port 3001, to change port, please change "proxy" line in package.json file.
+Recommended usage: Please fork the repo and checkout the `base-template` branch to start coding from scratch.
 
-## API calls
+Happy coding! 😄
+
+### TUT 1 (React Navigation):
+
+Branch name for the final version: `tut-1-navbar_slider`
+
+Please run `git checkout tut-1-navbar_slider` in the terminal after cloning the repo.
+
+### TUT 2
+
+Coming soon🍩
+
+
+## API calls using Redux middleware
 
 Create a action function like the following:
 
@@ -22,19 +35,21 @@ Where [REQUEST, RECEIVE, FAILURE] is action type defined to be captured in the r
 
 More details please see [redux-api-middleware documentation](https://www.npmjs.com/package/redux-api-middleware).
 
-## Other stuff
+Assume API runs on localhost port 3001, To change port, please change "proxy" line in package.json file.
 
+## Other tips and trick
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Use npm in China
+
+### Use npm in China
 $ npm config set registry http://r.cnpmjs.org
 $ npm install **
 
-## kill task in Windows cygwin
+### kill task in Windows cygwin
 $ netstat -a -b -o|grep 3000
 $ taskkill /F /PID 7936
 
-## Available Scripts
+### Available Scripts (createreactapp commands to be run in terminal)
 
 In the project directory, you can run:
 
